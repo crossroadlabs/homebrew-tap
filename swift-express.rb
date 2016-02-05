@@ -1,3 +1,5 @@
+require "formula"
+
 class SwiftExpress < Formula
   desc "Command line project manager for Swift Express"
   homepage "http://swiftexpress.io/"

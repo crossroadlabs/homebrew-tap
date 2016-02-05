@@ -1,5 +1,9 @@
+require "formula"
+
 class Libevhtp < Formula
+  desc "A more flexible replacement for libevent's http API"
   homepage 'http://ellzey.github.io/libevhtp/'
+
   url 'https://github.com/ellzey/libevhtp/archive/1.2.10.tar.gz'
   version '1.2.10'
   sha1 'c481be3b26a4379e39d5952ff60a195f2c0e2176'
