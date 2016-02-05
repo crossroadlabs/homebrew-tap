@@ -1,5 +1,3 @@
-require "formula"
-
 class Libevhtp < Formula
   desc "A more flexible replacement for libevent's http API"
   homepage 'http://ellzey.github.io/libevhtp/'
