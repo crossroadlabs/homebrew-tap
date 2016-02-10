@@ -5,10 +5,6 @@ class SwiftExpress < Formula
   url "https://github.com/crossroadlabs/ExpressCommandLine.git", :tag => version
   
   head "https://github.com/crossroadlabs/ExpressCommandLine.git", :branch => "master"
-  
-  devel do
-    url "https://github.com/crossroadlabs/ExpressCommandLine.git", :branch => "develop"
-  end
 
   depends_on :xcode => "7.2"
   depends_on :macos => :yosemite
