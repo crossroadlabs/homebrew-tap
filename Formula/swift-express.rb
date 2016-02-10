@@ -10,11 +10,11 @@ class SwiftExpress < Formula
   depends_on :macos => :yosemite
 
   depends_on 'openssl'
-  depends_on 'libevhtp'
+  depends_on 'libevhtp' => ["without-oniguruma", "with-shared"]
   depends_on 'carthage' 
 
   def install
-    system "carthage", "bootstrap", "--platform", "Mac"
+    system "carthage", "update", "--platform", "Mac"
     xcodebuild "SYMROOT=build"
     libexec.install "build/Release/swift-express.app"
     bin.install_symlink libexec/"swift-express.app/Contents/MacOS/swift-express"
