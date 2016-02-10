@@ -6,11 +6,11 @@ class SwiftExpress < Formula
   
   head "https://github.com/crossroadlabs/ExpressCommandLine.git", :branch => "master"
 
-  depends_on :xcode
+  depends_on :xcode => "7.2"
   depends_on :macos => :yosemite
 
-  depends_on 'libevhtp'
   depends_on 'openssl'
+  depends_on 'libevhtp'
   depends_on 'carthage' 
 
   def install
