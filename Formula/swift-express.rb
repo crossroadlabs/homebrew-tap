@@ -17,6 +17,6 @@ class SwiftExpress < Formula
     system "carthage", "update", "--platform", "Mac"
     xcodebuild "SYMROOT=build"
     libexec.install "build/Release/swift-express.app"
-    bin.install_symlink libexec/"swift-express.app/Contents/MacOS/swift-express"
+    bin.install "swift-express/Scripts/swift-express"
   end
 end
