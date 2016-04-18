@@ -14,7 +14,7 @@ class SwiftExpress < Formula
   depends_on 'carthage' 
 
   def install
-    system "carthage", "update", "--platform", "Mac"
+    system "carthage", "update", "--platform", "Mac", "--no-use-binaries"
     xcodebuild "SYMROOT=build"
     libexec.install "build/Release/swift-express.app"
     bin.install "swift-express/Scripts/swift-express"
