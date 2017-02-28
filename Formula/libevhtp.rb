@@ -5,7 +5,7 @@ class Libevhtp < Formula
 
   url "https://github.com/ellzey/libevhtp/archive/#{version}.tar.gz"
 
-  sha256 'dd914c7f09eb84738fb45bbcf24ce17f6b0d008e28ff2d773b2bf7e761b10295'
+  sha256 'ae114300659267c7e5f9805ba15f7e3f3461613371f38e3f84520a1703146afd'
 
   head 'https://github.com/ellzey/libevhtp.git'
 
