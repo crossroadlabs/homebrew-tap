@@ -1,11 +1,11 @@
 class Libevhtp < Formula
   desc "A more flexible replacement for libevent's http API"
   homepage 'http://ellzey.github.io/libevhtp/'
-  version '1.2.10'
+  version '1.2.11n'
 
   url "https://github.com/ellzey/libevhtp/archive/#{version}.tar.gz"
 
-  sha256 '1cecc250a766cd6f5df35706181427cfcff62541a7a135a821eed9f61c9c8907'
+  sha256 'dd914c7f09eb84738fb45bbcf24ce17f6b0d008e28ff2d773b2bf7e761b10295'
 
   head 'https://github.com/ellzey/libevhtp.git'
 
